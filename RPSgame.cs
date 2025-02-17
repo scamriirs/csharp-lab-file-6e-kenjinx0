@@ -1,5 +1,4 @@
-/* write a program to implement Rock, Paper and Scissors played between two players
-    - make a 2D array (3x3) and make:
+/* write a program to implement Rock, Paper, and Scissors played between two players
     1 - Rock
     2 - Paper
     3 - Scissors
