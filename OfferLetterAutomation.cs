@@ -32,7 +32,7 @@ class EmployeeOfferLetter : OfferLetter {
         Console.WriteLine("Dear " + PersonName + ",\n\n" +
                           "We are pleased to offer you the position of " + Designation + " at our company.\n" +
                           "Your joining date will be: " + DOJ + "\n" +
-                          "Your salary package will be: $" + Salary + " per annum.\n\n" +
+                          "Your salary package will be: Rs" + Salary + " per month.\n\n" +
                           "Looking forward to having you on our team!\n\n" +
                           "Best Regards,\n" +
                           CompanyName);
