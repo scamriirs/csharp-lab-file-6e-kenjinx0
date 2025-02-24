@@ -38,10 +38,10 @@ class EmployeeOfferLetter : OfferLetter {
                           CompanyName);
     }
 }
-class Program {
+class Offer {
     static void Main() {
         // Creating an offer letter instance
-        EmployeeOfferLetter offer = new EmployeeOfferLetter("John Doe", "1st March 2025", "Software Engineer", 75000);
+        EmployeeOfferLetter details = new EmployeeOfferLetter("John Doe", "1st March 2025", "Software Engineer", 75000);
         offer.GenerateOfferLetter();
     }
 }
