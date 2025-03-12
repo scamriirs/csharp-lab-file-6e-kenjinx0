@@ -1,4 +1,5 @@
-﻿using System;
+// write a program to implement the concept of porperties.
+using System;
 namespace PropertyExample
 {
     class Properties
