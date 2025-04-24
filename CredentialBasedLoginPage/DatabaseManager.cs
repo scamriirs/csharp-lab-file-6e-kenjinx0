@@ -6,7 +6,7 @@ namespace CredentialBasedLoginPage
 {
     public class DatabaseManager
     {
-        private string connectionString = @"Data Source= KENPC\SQLEXPRESS;Initial Catalog=UserCredentialsDB;Integrated Security=True";
+        private string connectionString = @"Data Source= .\SQLEXPRESS;Initial Catalog=UserCredentialsDB;Integrated Security=True";
 
         public bool ValidateUser(string username, string password)
         {
