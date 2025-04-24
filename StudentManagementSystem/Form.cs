@@ -6,7 +6,7 @@ namespace StudentManagementSystem
 {
     public partial class Form1 : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=KENPC\SQLEXPRESS;Initial Catalog=StudentDB;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=StudentDB;Integrated Security=True");
 
         public Form1()
         {
